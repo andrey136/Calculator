@@ -42,6 +42,7 @@ const buttonAmount0 = function () {
 }
 const buttonAmountIs = function () {
     document.getElementById('amount').value = '';
+    if (arr[0] === '=') document.getElementById('amount').value = '';
     arr.push('=');
     console.log(arr);
     for (let i = 0; i < arr.length; i++){
