@@ -110,11 +110,11 @@ const printAmount = function () {
     str = '';
     count = 0;
     console.log(arr);
-}/*
+}
 function randomColor () {
    // console.log('google');
     document.getElementById('randomColorButton').style.backgroundColor = '#'+Math.floor(Math.random()*16777215).toString(16);
-}*/
+}
 let arr = [];
 let str = '';
 let arr2 = [];
