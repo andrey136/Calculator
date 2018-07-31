@@ -41,7 +41,7 @@ const buttonAmount0 = function () {
     arr.push('0');
 }
 const buttonAmountIs = function () {
-    document.getElementById('amount').value = '_';
+    document.getElementById('amount').value = '';
     arr.push('=');
     console.log(arr);
     for (let i = 0; i < arr.length; i++){
@@ -92,7 +92,10 @@ const buttonAmountMinus = function () {
     document.getElementById('amount').value += '-';
     arr.push('-');
 }
-
+const buttonAmountPoint = function () {
+    document.getElementById('amount').value += '.';
+    arr.push('.');
+}
 /*let cnt = 1;
 const enter = function () {
     console.log('enter', cnt++);
@@ -103,7 +106,7 @@ const printAmount = function () {
     console.log(amount);
 }
 */const clearAmount = function () {
-    document.getElementById('amount').value = '_';
+    document.getElementById('amount').value = '';
     arr = [];
     arr2 = [];
     arr3 = [];

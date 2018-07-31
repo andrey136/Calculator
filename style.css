@@ -6,6 +6,7 @@ body{
     background: dodgerblue;
     border: 2px;
     padding: 20px;
+    font-size: 20px;
 }
 .button-ok{
     background: white;
