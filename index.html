@@ -7,32 +7,32 @@
 </head>
 <body>
 <h1>Calculator</h1>
-<input type="text" onkeyup="printAmount()" id="amount">
+<input type="text" onkeyup="printAmount()" id="amount" placeholder="0">
+<input type="text" onkeyup="printAmount()" id="result" placeholder="0">
 <button class="button-clear" onclick="clearAmount()">Clear</button>
-<button class="button-clear" onclick="randomColor()" id="randomColorButton">RandomColorButton</button>
 <p>
-    <button class="button" onclick="buttonAmount7()" id="7 ">7</button>
-    <button class="button" onclick="buttonAmount8()" id="8 ">8</button>
-    <button class="button" onclick="buttonAmount9()" id="9 ">9</button>
-    <button class="button" onclick="buttonAmountDivision()" id="/ ">/</button>
+    <button class="button" onclick="printAndAddNumber(7)" id="7">7</button>
+    <button class="button" onclick="printAndAddNumber(8)" id="8">8</button>
+    <button class="button" onclick="printAndAddNumber(9)" id="9">9</button>
+    <button class="button" onclick="buttonAmount1('/')" id="/">/</button>
 </p>
 <p>
-    <button class="button" onclick="buttonAmount4()" id="4 ">4</button>
-    <button class="button" onclick="buttonAmount5()" id="5 ">5</button>
-    <button class="button" onclick="buttonAmount6()" id="6 ">6</button>
-    <button class="button" onclick="buttonAmountMultiply()" id="x ">x</button>
+    <button class="button" onclick="printAndAddNumber(4)" id="4">4</button>
+    <button class="button" onclick="printAndAddNumber(5)" id="5">5</button>
+    <button class="button" onclick="printAndAddNumber(6)" id="6">6</button>
+    <button class="button" onclick="buttonAmount1('x')" id="x">x</button>
 </p>
 <p>
-    <button class="button" onclick="buttonAmount1()" id="1 ">1</button>
-    <button class="button" onclick="buttonAmount2()" id="2 ">2</button>
-    <button class="button" onclick="buttonAmount3()" id="3 ">3</button>
-    <button class="button" onclick="buttonAmountMinus()" id="- ">-</button>
+    <button class="button" onclick="printAndAddNumber(1)" id="1" value="1">1</button>
+    <button class="button" onclick="printAndAddNumber(2)" id="2">2</button>
+    <button class="button" onclick="printAndAddNumber(3)" id="3">3</button>
+    <button class="button" onclick="buttonAmount1('-')" id="-">-</button>
 </p>
 <p>
-    <button class="button" onclick="buttonAmountPoint()" id=".">.</button>
-    <button class="button" onclick="buttonAmount0()" id="0 ">0</button>
-    <button class="button" onclick="buttonAmountIs()" id="= ">=</button>
-    <button class="button" onclick="buttonAmountPlus()" id="+ ">+</button>
+    <button class="button" onclick="buttonAmount('.')" id=".">.</button>
+    <button class="button" onclick="printAndAddNumber(0)" id="0">0</button>
+    <button class="button" onclick="buttonAmount1('=')" id="=">=</button>
+    <button class="button" onclick="buttonAmount1('+')" id="+">+</button>
 </p>
 <script type="text/javascript" src="index.js"></script>
 </body>
