@@ -13,3 +13,6 @@ body{
     border: 2px;
     padding: 10px 20px;
 }
+input{
+    unline : 1px;
+}
