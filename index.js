@@ -3,6 +3,11 @@ document.body.style.backgroundColor = '#'+Math.floor(Math.random()*16777215).toS
 const printAndAddNumber = function (n) {
     if (str === arr[0]) clearAmount();
     console.log(arr);
+    if (str === '0' && n !== 0) {
+        operationWithResult = false;
+        str = n.toString();
+        return document.getElementById('amount').value = str;
+    }
     str += n;
     if (str === '00') return str = '0';
     if (firstNumber) return document.getElementById('amount').value = str;
@@ -12,14 +17,14 @@ const buttonAmount1 = function (n) {
 
     if (operationWithResult){
         if (str === '' && arr3.includes(arr[arr.length - 1])) {
-           return diffrentSigns(n);
+            return diffrentSigns(n);
         }
         str = '';
         arr.push(n);
         return document.getElementById('amount').value += n;
     }
     if (str === '' && arr3.includes(arr[arr.length - 1])) {
-       return diffrentSigns(n);
+        return diffrentSigns(n);
     }
     if (str !== '') {
         arr.push(str, n);
