@@ -1,12 +1,20 @@
 body{
-    background-color: bisque;
+    background-image: url("https://lh4.googleusercontent.com/proxy/a4Ymj0s0c633Or3KlTq4EemPF0qw_qjOVllXNUxzP9e2BwboFSCQoE-EJf1uPR_zq9ebL1jdhWsfUhxdZ9pqzMbijNunZsSOlT1XMV5y2078UiJBspvgmFHaKNVYghfNg7Uu4voG9aAhJfXJw4KYv-j6e5c=w541-h360-k-no");
     padding: 20px;
+
 }
-.button{
-    background: dodgerblue;
-    border: 2px;
-    padding: 20px;
-    font-size: 20px;
+button{
+    font-size: 18px;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    padding: 20px ;
+    outline: none;
+
+    border-style: solid none;
+    border-radius: 6px;
+    background: mediumpurple;
+
 }
 .button-clear{
     background: white;
@@ -14,5 +22,5 @@ body{
     padding: 10px 20px;
 }
 input{
-    unline : 1px;
+    font-size : 21px;
 }

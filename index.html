@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <title>Button</title>
     <link type="text/css" rel="stylesheet" href="style.css">
+    <link href="https://lh4.googleusercontent.com/proxy/a4Ymj0s0c633Or3KlTq4EemPF0qw_qjOVllXNUxzP9e2BwboFSCQoE-EJf1uPR_zq9ebL1jdhWsfUhxdZ9pqzMbijNunZsSOlT1XMV5y2078UiJBspvgmFHaKNVYghfNg7Uu4voG9aAhJfXJw4KYv-j6e5c=w541-h360-k-no" rel="icon">
 </head>
 <body>
 <h1>Calculator</h1>
-<input type="text" onkeyup="printAmount()" id="amount" placeholder="0">
+<input type="text" onkeyup="printAmount()" id="amount" placeholder="0" readonly>
 <button class="button-clear" onclick="clearAmount()">Clear</button>
 <p>
-    <button class="button" onclick="printAndAddNumber(7)" id="7">7</button>
+    <button type="button" class="btn btn-primary btn-lg btn-block" onclick="printAndAddNumber(7)">7</button>
     <button class="button" onclick="printAndAddNumber(8)" id="8">8</button>
     <button class="button" onclick="printAndAddNumber(9)" id="9">9</button>
     <button class="button" onclick="operation('/')" id="/">/</button>
