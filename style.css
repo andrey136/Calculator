@@ -1,4 +1,5 @@
 body{
+    background-image: url("https://w-dog.ru/wallpapers/12/12/524587102356363.jpg");
     padding: 20px;
     margin: 0;
     font-size: 1rem;
@@ -6,10 +7,10 @@ body{
     line-height: 2;
     color: #212529;
     text-align: center;
-    background: #546a8c;
+    /*background: #546a8c;*/
 }
 .header{
-    background: snow;
+    background: url("https://w-dog.ru/wallpapers/15/13/488361200975807.jpg");
     height: 150px;
 }
 .top{
@@ -31,8 +32,8 @@ table{
     width: 300px;
     padding: 20px;
     border-collapse: unset;
-    background: burlywood;
-    margin-left: 650px;
+    background: url("http://dreempics.com/img/picture/Apr/12/1e4f269b8df1885718f547398a4d0e95/8.jpg")/*burlywood*/;
+    margin-left: 670px;
 }
 button{
     font-size: 26pt;
